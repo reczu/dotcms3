@@ -16,5 +16,6 @@ Route::get('/', function () {
 });
 
 Route::group(['prefix' => 'admin'], function(){
-   Route::resource('news', 'Admin\NewsController');
+    Route::get('/', 'Admin\NewsController@index');
+    Route::resource('news', 'Admin\NewsController');
 });

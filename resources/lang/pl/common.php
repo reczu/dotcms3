@@ -4,4 +4,6 @@ return [
     'delete' => 'Usuń',
     'actions' => 'Akcje',
     'show' => 'Pokaż',
+    'add_new' => 'Dodaj',
+    'created_at' => 'Utworzono',
 ];

@@ -27,7 +27,7 @@ class NewsPostsTableSeeder extends Seeder
             'body' => 'Lorem ipsum dolor sit amet, quo in nonumy laboramus interesset. Vim reprimique necessitatibus ea, delicata salutandi no his. Eum an corpora repudiandae, libris deserunt eu ius, liber impetus erroribus nam id. Ad quaestio efficiendi omittantur mei. Ea eum nullam omittam. Mei ei simul appareat intellegebat.
 
                        Ei usu ullum vitae pertinax, vide sensibus sea in. Vis no pericula efficiantur, vim te atqui postea gloriatur. An quidam persequeris mea. An mollis delectus mei, habemus consetetur ex ius. Nam solet scribentur id, eum ea ubique platonem accommodare, ne mel nibh verear.',
-            'publish_at' => Carbon::parse(),
+            'publish_at' => Carbon::parse()->format('Y-m-d'),
 
         ]);
 
